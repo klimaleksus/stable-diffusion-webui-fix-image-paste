@@ -2,7 +2,8 @@
 
 This is javascript Extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) fixes image paste from clipboard to any WebUI form.
 
-Notably, it allows to paste into `img2img > Inpaint upload > Mask` for the time being.
+Notably, it allows to paste into `img2img > Inpaint upload > Mask` for the time being.  
+(Inspired by my own [xy-plot-online-grid-viewer](https://github.com/klimaleksus/xy-plot-online-grid-viewer)!)
 
 ## Installation:
 
