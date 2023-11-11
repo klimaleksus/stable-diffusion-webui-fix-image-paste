@@ -7,7 +7,7 @@ Notably, it allows to paste into `img2img > Inpaint upload > Mask` for the time 
 
 ## Installation:
 
-Copy the link to this repository into `Extension index URL` in WebUI Extensions tab:
+Copy the link to this repository into `URL for extension's git repository` in WebUI `Extensions` → `Install from URL` tab:
 ```
 https://github.com/klimaleksus/stable-diffusion-webui-fix-image-paste
 ```
