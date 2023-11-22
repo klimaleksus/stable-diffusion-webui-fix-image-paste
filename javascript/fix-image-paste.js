@@ -53,6 +53,10 @@
           }else{
             old_target = null;
           }
+          var buggy = target.getRootNode().querySelectorAll('div.image-container[data-testid="image"] div:first-child *');
+          while(Array.prototype.indexOf.call(buggy,target)>=0){
+            target = target.parentElement;
+          }
           target.dispatchEvent(new DragEvent('drop',{
             dataTransfer: dataTransfer,
           }));
